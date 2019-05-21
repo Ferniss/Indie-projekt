@@ -1,0 +1,16 @@
+/*BEM*/
+
+/*Block*/
+.header{
+    width: 100%;
+    padding: 15px 0;
+    background-image: url()
+}
+/*Element*/
+.header__h1{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+/*Modeyfier*/
+
