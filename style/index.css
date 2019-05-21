@@ -2,9 +2,13 @@
 body{
     margin: 0;
     padding: 0;
+    color: #fff;
 }
 li{
    list-style-type: none;
+}
+a{
+    text-decoration: none;
 }
 /*Block*/
 .header{
@@ -25,7 +29,7 @@ li{
     z-index: -1;
 }
 .nav{
-    width: 75%;
+    width: 86%;
     display: flex;
     justify-content: space-between;
 }
@@ -42,9 +46,18 @@ li{
 .nav__ul{
     color: #fff;
     display: flex;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
 }
 .nav__subul{
     visibility: hidden;
+}
+.header__Bigh1{
+    color: #fff;
+    text-align: center; 
+    font-size: 76px;
+    font-weight: 800;
 }
 /*Modeyfier*/
 
