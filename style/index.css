@@ -33,6 +33,9 @@ a{
     display: flex;
     justify-content: space-between;
 }
+.header__buttonWrapper{
+    text-align: center;
+}
 /*Element*/
 .header__h1{
     color: #fff;
@@ -49,15 +52,32 @@ a{
     font-size: 13px;
     font-weight: 600;
     font-family: Roboto, sans-serif;
+    margin-top: 25px;
 }
 .nav__subul{
     visibility: hidden;
 }
 .header__Bigh1{
+    margin-top: 2em;
     color: #fff;
     text-align: center; 
     font-size: 76px;
     font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+.header__button{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: transparent;
+    font-size: 14px;
+    padding: 15px 30px;
+    border: 0;
+    font-weight: 700;
+    margin: 10px;
+    color: #fff;
+}
+.header__button:hover{
+    background-color: #fff;
+    color: black;
 }
 /*Modeyfier*/
 
