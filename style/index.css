@@ -9,6 +9,7 @@ li{
 }
 a{
     text-decoration: none;
+    color: #fff;
 }
 /*Block*/
 .header{
@@ -61,7 +62,14 @@ a{
     background-color: red;
 }
 .header__a{
-    color: white;
+    color: #fff;
+    margin-right: 100px;
+}
+.header__a:hover{
+    color: orange;
+}
+.ul-nav:hover{
+    color: orange;
 }
 .nav__ul{
     display: flex;
@@ -82,7 +90,7 @@ a{
     visibility: hidden;
 }
 .header__Bigh1{
-    margin-top: 2em;
+    margin-top: 3.5em;
     color: #fff;
     text-align: center; 
     font-size: 76px;
@@ -94,7 +102,6 @@ a{
     background-color: transparent;
     font-size: 14px;
     padding: 15px 30px;
-    border: 0;
     font-weight: 700;
     margin: 10px;
     color: #fff;
