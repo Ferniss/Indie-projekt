@@ -16,8 +16,17 @@ p{
     font-weight: 400;
     font-family: "Roboto";
     line-height: 26px;
+    text-align: center;
 }
-
+h3{
+    color: rgb(43, 45, 58);
+    font-size: 52px;
+    font-weight: 900;
+    font-family: "Open Sans";
+    font-style: normal;
+    line-height: 70px;
+    text-align: center;
+}
 
 /*-----------block-----------*/
 /*-------start-header-------*/
@@ -78,7 +87,15 @@ p{
     height: 25em;
 }
 /*-------slut-info-------*/
-
+.Ourwork{
+    height: 25em;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 300px;
+    margin: auto 9em;
+}
 
 /*-------Element-------*/
 /*-------start-header-------*/
@@ -175,14 +192,6 @@ p{
     flex-direction: column;
     align-items: center;
 }
-.info__h3{
-    color: rgb(43, 45, 58);
-    font-size: 52px;
-    font-weight: 900;
-    font-family: "Open Sans";
-    font-style: normal;
-    line-height: 100px;
-}
 .info__p{
     color: rgb(137, 141, 158);
     font-size: 16px;
@@ -207,11 +216,39 @@ p{
     font-family: "Roboto";
 }
 /*-------slut-info-------*/
+
+/*-------start-work-for-us-------*/
+.Ourwork__img{
+    width: 300px;
+}
+.Ourwork__h3{
+    font-style: bold;
+    line-height: 0px;
+    color: rgb(43, 45, 58);
+    font-size: 52px;
+    font-weight: 800;
+}
+.Ourwork__p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    line-height: 22px;
+    margin-bottom: 60px;
+}
+/*-------slut-work-for-us-------*/
 /*-------slut-main-------*/
+
+
+
+
 /*Modeyfier*/
 /*start-header*/
 .nav__ul--color{
     color: #fff;
 }
 /*slut-header*/
+/*main*/
+/*our-work*/
+
+/*slut-our-work*/
 
