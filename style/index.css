@@ -19,12 +19,11 @@ p{
     text-align: center;
 }
 h3{
+    font-style: bold;
+    line-height: 0px;
     color: rgb(43, 45, 58);
     font-size: 52px;
-    font-weight: 900;
-    font-family: "Open Sans";
-    font-style: normal;
-    line-height: 70px;
+    font-weight: 800;
     text-align: center;
 }
 
@@ -87,8 +86,9 @@ h3{
     height: 25em;
 }
 /*-------slut-info-------*/
+/*-------start-Ourwork-------*/
 .Ourwork{
-    height: 25em;
+    height: 35em;
 }
 .grid-container{
     display: grid;
@@ -96,7 +96,16 @@ h3{
     width: 300px;
     margin: auto 9em;
 }
-
+/*-------slut-ourwork-------*/
+/*-------start-team-------*/
+.team{
+    background-color: rgb(239, 241, 248);
+    height: 50em;
+}
+.team__flex-container{
+    display: flex;
+}
+/*-------slut-team-------*/
 /*-------Element-------*/
 /*-------start-header-------*/
 .header__h1{
@@ -234,6 +243,9 @@ h3{
     font-family: "Open Sans";
     line-height: 22px;
     margin-bottom: 60px;
+}
+.Ourwork__img::before{
+    background-color: #EAAB1C;
 }
 /*-------slut-work-for-us-------*/
 /*-------slut-main-------*/
