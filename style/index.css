@@ -273,6 +273,24 @@ figure{
     border-top: solid 1px grey;
 
 }
+/*-------slut-team-------*/
+/*-------start-photo-------*/
+.moveingphoto{
+    background-color: rgb(28, 30, 41);
+    background-image: url("https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/45/2015/10/cafe-918624_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 15px;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.photo{
+    opacity: 1;
+}
+.photo__overlay{
+    background-color:#000000;
+    opacity:0.4;
+}
 /*-------slut-main-------*/
 
 
