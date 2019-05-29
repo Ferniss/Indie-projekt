@@ -291,6 +291,21 @@ figure{
     background-color:#000000;
     opacity:0.4;
 }
+/*-------slut-photo-------*/
+/*-------start-ourblok-------*/
+.ourblok__wrapper{
+    display: flex;
+    justify-content: center;
+}
+.ourblok__figure{
+    width: 5em;
+}
+.ourblok__figcaption{
+    text-align: center;
+    border: solid 1px;
+    border-top: none;
+    width: 25em;
+}
 /*-------slut-main-------*/
 
 
