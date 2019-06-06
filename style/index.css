@@ -230,7 +230,7 @@ figure{
 }
 /*-------slut-info-------*/
 
-/*-------start-work-for-us-------*/
+/*-------start-ourwork-------*/
 .Ourwork__img{
     width: 300px;
 }
@@ -295,17 +295,46 @@ figure{
 /*-------start-ourblok-------*/
 .ourblok__wrapper{
     display: flex;
-    justify-content: center;
-}
-.ourblok__figure{
-    width: 5em;
+    align-content: center;
 }
 .ourblok__figcaption{
     text-align: center;
-    border: solid 1px;
+    border: solid 0.5px;
     border-top: none;
+    height: 10em;
     width: 25em;
 }
+.ourblock__a{
+    background-color: rgb(234, 171, 28);
+    border-radius: 0;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: "Roboto";
+    padding: 12px 15px;
+}
+/*-------slut-ourblok-------*/
+/*-------start-london-------*/
+.london{
+    background-image: url(https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/45/2015/10/cityscape-918831_1280.jpg);
+    background-repeat: no-repeat;
+    background-position:center center; 
+    background-size:cover;
+    padding-bottom:121px;
+    padding-top:121px;
+    z-index: 0;
+}
+.london__a{
+    margin-top: 2em;
+    background-color: rgb(28, 30, 41);
+    border-radius: 0px;
+    padding: 15px 30px;
+
+}
+.london__wrapper{
+    margin-left: 5em;
+    display: flex;
+}
+/*-------slut-ourblok-------*/
 /*-------slut-main-------*/
 
 
