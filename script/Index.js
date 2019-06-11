@@ -40,4 +40,7 @@ document.addEventListener('DOMContentLoaded', function(){
             nav__subul.classList.replace('ease_in', 'ease_out');
         });
     });
+    document.addEventListener('scroll', function(event){
+        
+    });
 });
