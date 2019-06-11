@@ -27,9 +27,6 @@ h3{
     font-weight: 800;
     text-align: center;
 }
-figure{
-    background-color: white;
-}
 /*-----------block-----------*/
 /*-------start-header-------*/
 .header{
@@ -341,7 +338,6 @@ figure{
 .footer{
     display: flex;
     justify-content: center;
-    justify-content: space-around;
     background-color: #1C1E29;
     color: #9FA7AF;
 }
@@ -354,13 +350,13 @@ figure{
     margin-right: 114px;
 }
 .footer__div1{
-    margin-left: 12em;
+    margin-left: 2em;
 }
 .footer__div2{
     margin-left: 0;
 }
 .footer__div3{
-    margin-right: 458px;
+    margin-right: 55px;
 }
 span{
     display: inline-block;
@@ -400,4 +396,8 @@ span{
 .footer--p{
     width: 292px;
     margin-left: 103px;
+}
+.footer__div3--flex{
+    display: flex;
+    margin-left: 106px;
 }
