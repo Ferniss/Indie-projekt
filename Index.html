@@ -14,7 +14,7 @@
             <h1 class="header__h1"><a id="h1" class="header__a" href="./Index.html">West</a></h1>
             <ul class="nav__ul">
                 <li>
-                        <a class="ul-nav" class="header__a" class="nav__ul--color" href="./Index.html">HOME</a>
+                        <a class="ul-nav" class="header__a a-hover" class="nav__ul--color" href="./Index.html">HOME</a>
                     <ul class="nav__subul">
                         <li>home</li>
                         <li>home</li>
@@ -74,10 +74,11 @@
             </figure>
         </article>
         <article class="team">
+            <span class="team__span"></span>
             <h3>Meet the team</h3>
             <p>This is the guys that make it happend</p>
             <div class="team__flex-container">
-            <figure>
+            <figure class="team__figure">
                 <img src="./West_files/11-400x400.jpg" alt="">
                 <figcaption class="team__figcaption">
                     <h2 class="figcaption__h2">David Fields</h2>
@@ -85,7 +86,7 @@
                     <p class="figcaption__p">Manager</p>
                 </figcaption>
             </figure>
-            <figure>
+            <figure class="team__figure">
                 <img src="./West_files/31-400x400.jpg" alt="">
                 <figcaption class="team__figcaption">
                     <h2 class="figcaption__h2">Chrsitina Parks</h2>
@@ -93,7 +94,7 @@
                     <p class="figcaption__p">Designer</p>
                 </figcaption>
             </figure>
-            <figure>
+            <figure class="team__figure">
                 <img src="./West_files/4-400x400.jpg" alt="">
                 <figcaption class="team__figcaption">
                     <h2 class="figcaption__h2">Billy Jones</h2>
@@ -113,7 +114,7 @@
             <h3>ourblok</h3>
             <p>The place where you share our latest news</p>
             <div class="ourblok__wrapper">
-            <figure>
+            <figure class="ourblock__figure">
                 <img src="./West_files/boat-918840_1280-400x266.jpg" alt="">
                 <figcaption class="ourblok__figcaption">
                     <h2>How we started</h2>
@@ -121,7 +122,7 @@
                     <a class="ourblock__a" href="">CONTINUE READING</a>
                 </figcaption>
             </figure>
-            <figure>
+            <figure class="ourblock__figure">
                 <img src="./West_files/hay-918549_1280-400x266.jpg" alt="">
                 <figcaption class="ourblok__figcaption">
                         <h2>Another post</h2>
@@ -146,9 +147,11 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer__wrapper">
+    <div class="footer">
         <div class="footer__div1">
             <h3 class="footer__h3">Get in touch</h3>
+            <div class="footer__border footer__border--1"></div>
             <figure class="contact-info">
                 <span>
                     <i class="fas fa-home"></i>
@@ -170,10 +173,12 @@
         </div>
         <div class="footer__div2">
             <h3 class="footer__h3">About West</h3>
+            <div class="footer__border footer__border--2"></div>
             <blockquote class="footer--p">West is a responsive business theme that aims to provide everything you need in order to help you create an awesome website for your company. Some of the features you will find in West are: Live Composer integration, fonts and colors controls, blog options, custom header option and much more.</blockquote>
         </div>
         <div class="footer__div3">
             <h3 class="footer__h3">Social</h3>
+            <div class="footer__border footer__border--3"></div>
             <figure class="footer__div3--flex">
             <span>
                     <i class="fab fa-facebook-f"></i>
@@ -195,8 +200,25 @@
         </span>
                                 
 </figure>
+<figure class="footer__div3--flex">
+        <span>
+                <i class="fab fa-pinterest-p"></i>
+        </span>
+        <span>
+                <i class="fab fa-google-plus-g"></i>
+        </span>
+        <span>
+                <i class="fab fa-behance"></i>
+    </span>
+    <span>
+        <i class="fas fa-camera-retro"></i>
+    </span>                  
+</figure>
         </div>
-    </footer>
+    </div>
+        <div class="footer__border footer__border--4"></div>
+        <p>Proudly powered by WordPress | Theme: West by aThemes.</p>
+</footer>
     <script src="./script/Index.js"></script>
 </body>
 </html>

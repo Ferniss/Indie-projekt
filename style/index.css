@@ -27,6 +27,16 @@ h3{
     font-weight: 800;
     text-align: center;
 }
+ul .ease_in{
+    transform: translateY(-10px);
+    transition: all 200ms ease-in;
+    opacity: 1;
+    visibility: visible;
+}
+.ease_out{
+    transform: translateY(0px);
+    transition: all 200ms ease;
+}
 /*-----------block-----------*/
 /*-------start-header-------*/
 .header{
@@ -100,13 +110,17 @@ h3{
 /*-------start-team-------*/
 .team{
     background-color: rgb(239, 241, 248);
-    height: 50em;
+    height: 55em;
 }
 .team__flex-container{
     display: flex;
 }
 /*-------slut-team-------*/
-
+/*-------start-footer-------*/
+.footer__wrapper{
+    background-color: #1C1E29;
+}
+/*-------slut-footer-------*/
 
 /*-------Element-------*/
 /*-------start-header-------*/
@@ -269,8 +283,15 @@ h3{
     margin-bottom: 20px;
     width: 100%;
     border-top: solid 1px grey;
-
+    
 }
+.team__span{
+    background-color: #EFF1F8;
+}
+                    .team__figure{
+                        background-color: white;
+                        margin-top: 60px;
+                    }
 /*-------slut-team-------*/
 /*-------start-photo-------*/
 .moveingphoto{
@@ -347,7 +368,7 @@ h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     margin-top: 3em;
-    margin-right: 114px;
+    margin-right: 130px;
 }
 .footer__div1{
     margin-left: 2em;
@@ -374,7 +395,7 @@ span{
     display: flex;
     align-items: center; 
     background-color: #1C1E29;
-    margin: 5px;
+    margin: 0;
 }
 span{
     margin-left: 10px;
@@ -396,8 +417,27 @@ span{
 .footer--p{
     width: 292px;
     margin-left: 103px;
+    line-height: 1.6;
 }
 .footer__div3--flex{
     display: flex;
-    margin-left: 106px;
+    margin-left: 70px;
+    padding-top: 12px;
+}
+.footer__border{
+    width: 50px;
+    border-top: solid 3px rgba(255, 255, 255, 0.1);
+}
+.footer__border--1{
+    margin-left: 10px;
+}
+.footer__border--2{
+    margin-left: 6.3em;
+}
+.footer__border--3{
+    margin-left: 5em;
+}
+.footer__border--4{
+    width: 90%;
+    margin-left: 5em;
 }

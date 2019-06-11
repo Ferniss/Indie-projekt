@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function(){
             nav.classList.add("nav-scrolled");
             navwest.style.color = "black";
             navwest.style.margintop = "0px";
-            navwest.classList.remove("header__a");
             navhome.style.color = "black";
             navhome.style.margintop = "0px";
             navhome.classList.remove(".nav__ul--color");
@@ -20,7 +19,6 @@ document.addEventListener('DOMContentLoaded', function(){
             nav.classList.remove("nav-scrolled");
             navwest.style.color = "white";
             navwest.style.margintop = "10px";
-            navwest.classList.add("header__a");
             navhome.style.color = "white";
             navhome.style.margintop = "10px";
             navhome.classList.add(".nav__ul--color");
@@ -29,4 +27,17 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     }
 
+    navhome.addEventListener('mouseover', function(event){
+        console.log(event.target);
+        if(nav__subul.classList.contains('ease_out')){
+            console.log('test');
+            nav__subul.classList.replace('ease_out','ease_in');
+        }else{
+            nav__subul.classList.add('ease_in');
+        }
+        navhome.addEventListener('mouseout', function(event){
+            nav__subul.removeAttribute("style");
+            nav__subul.classList.replace('ease_in', 'ease_out');
+        });
+    });
 });
