@@ -135,6 +135,9 @@ h3{
 .ul-nav:hover{
     color: orange;
 }
+.nav__subul:hover{
+    color: orange;
+}
 .nav__ul{
     display: flex;
     font-size: 14px;
@@ -171,10 +174,18 @@ h3{
     background-color: #fff;
     color: black;
 }
+.visibility{
+    visibility: visible;
+    color: orange;
+}
+.hidden{
+    visibility: hidden;
+}
 .nav__subul {
-    left: 50%;
+    position: relative;
+    top: 5px;
+    right: 3em;
     background-color: #1C1E21;
-    display: none;
 }
 /*-------slut-header-------*/
 
