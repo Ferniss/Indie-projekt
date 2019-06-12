@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function(){
     let navwest = document.querySelector('#h1');
     let navhome = document.querySelector('.ul-nav');
     let navblog = document.querySelector('#ul-nav');
+    let submenu = document.querySelector('.nav__subul');
     window.onscroll = function() {scrollFunction()};
     function scrollFunction() {
         if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -27,20 +28,12 @@ document.addEventListener('DOMContentLoaded', function(){
         }
     }
 
-    navhome.addEventListener('mouseover', function(event){
-        console.log(event.target);
-        if(nav__subul.classList.contains('ease_out')){
-            console.log('test');
-            nav__subul.classList.replace('ease_out','ease_in');
+    navhome.addEventListener('mouseover', function(){
+        if (submenu.style.display == "none") {
+            submenu.style.display == "block";
         }else{
-            nav__subul.classList.add('ease_in');
+            submenu.style.display == "none";
         }
-        navhome.addEventListener('mouseout', function(event){
-            nav__subul.removeAttribute("style");
-            nav__subul.classList.replace('ease_in', 'ease_out');
-        });
-    });
-    document.addEventListener('scroll', function(event){
         
     });
 });

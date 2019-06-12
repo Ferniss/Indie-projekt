@@ -27,16 +27,6 @@ h3{
     font-weight: 800;
     text-align: center;
 }
-ul .ease_in{
-    transform: translateY(-10px);
-    transition: all 200ms ease-in;
-    opacity: 1;
-    visibility: visible;
-}
-.ease_out{
-    transform: translateY(0px);
-    transition: all 200ms ease;
-}
 /*-----------block-----------*/
 /*-------start-header-------*/
 .header{
@@ -147,7 +137,7 @@ ul .ease_in{
 }
 .nav__ul{
     display: flex;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 600;
     font-family: Roboto, sans-serif;
     margin-top: 25px;
@@ -159,9 +149,6 @@ ul .ease_in{
     font-weight: 600;
     font-family: Roboto, sans-serif;
     margin-top: 25px;
-}
-.nav__subul{
-    visibility: visible;
 }
 .header__Bigh1{
     margin-top: 3.5em;
@@ -183,6 +170,11 @@ ul .ease_in{
 .header__button:hover{
     background-color: #fff;
     color: black;
+}
+.nav__subul {
+    left: 50%;
+    background-color: #1C1E21;
+    display: none;
 }
 /*-------slut-header-------*/
 
@@ -295,21 +287,23 @@ ul .ease_in{
 /*-------slut-team-------*/
 /*-------start-photo-------*/
 .moveingphoto{
-    background-color: rgb(28, 30, 41);
     background-image: url("https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/45/2015/10/cafe-918624_1280.jpg");
     background-repeat: no-repeat;
-    background-position: 0 15px;
+    background-position: 0 0;
+    background-attachment: fixed;
     background-size: cover;
-    padding-bottom: 100px;
-    padding-top: 100px;
+    height: 300px;
     position: relative;
 }
 .photo{
     opacity: 1;
 }
 .photo__overlay{
-    background-color:#000000;
     opacity:0.4;
+}
+.moveingphoto__img{
+    margin-top: 60px;
+    margin-left: 50px;
 }
 /*-------slut-photo-------*/
 /*-------start-ourblok-------*/
@@ -318,11 +312,12 @@ ul .ease_in{
     align-content: center;
 }
 .ourblok__figcaption{
-    text-align: center;
-    border: solid 0.5px;
-    border-top: none;
-    height: 10em;
-    width: 25em;
+        padding: 25px;
+        min-height: 0px;
+        text-align: center;
+        border-color: rgb(241, 241, 241);
+        border-width: 1px;
+        border-style: none solid solid solid;
 }
 .ourblock__a{
     background-color: rgb(234, 171, 28);
