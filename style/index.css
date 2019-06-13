@@ -1,4 +1,4 @@
-/*BEM*/
+/*---------------BEM---------------*/
 body{
     margin: 0;
     padding: 0;
@@ -27,8 +27,8 @@ h3{
     font-weight: 800;
     text-align: center;
 }
-/*-----------block-----------*/
-/*-------start-header-------*/
+/*---------------BLOCK---------------*/
+/*---------------start-header---------------*/
 .header{
     width: 100%;
     padding: 1px 0;
@@ -66,17 +66,17 @@ h3{
 .header__buttonWrapper{
     text-align: center;
 }
-/*-------slut-header-------*/
+/*---------------slut-header---------------*/
 
-/*-------start-main-------*/
-/*-------start-produckt-------*/
+/*---------------start-main---------------*/
+/*---------------start-produckt---------------*/
 .produckt{
     display: flex;
     margin: 200px;
     width: 75%;
 }
-/*-------slut-produckt-------*/
-/*-------start-info-------*/
+/*---------------slut-produckt---------------*/
+/*---------------start-info---------------*/
 .info{
     background-color: rgb(239, 241, 248);
     background-image: url(https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/45/2015/10/man1.png);
@@ -85,8 +85,8 @@ h3{
     background-size: contain;
     height: 25em;
 }
-/*-------slut-info-------*/
-/*-------start-Ourwork-------*/
+/*---------------slut-info---------------*/
+/*---------------start-ourwork---------------*/
 .Ourwork{
     height: 35em;
 }
@@ -96,8 +96,8 @@ h3{
     width: 300px;
     margin: auto 9em;
 }
-/*-------slut-ourwork-------*/
-/*-------start-team-------*/
+/*---------------slut-ourwork---------------*/
+/*---------------start-team---------------*/
 .team{
     background-color: rgb(239, 241, 248);
     height: 55em;
@@ -105,15 +105,54 @@ h3{
 .team__flex-container{
     display: flex;
 }
-/*-------slut-team-------*/
-/*-------start-footer-------*/
+/*---------------slut-team---------------*/
+/*---------------start-photo---------------*/
+.moveingphoto{
+    background-image: url("https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/45/2015/10/cafe-918624_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+/*---------------slut-photo---------------*/
+/*---------------start-ourblock---------------*/
+.ourblok__wrapper{
+    display: flex;
+    align-content: center;
+}
+/*---------------slut-ourblock---------------*/
+/*---------------start-london---------------*/
+.london{
+    background-image: url(https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/45/2015/10/cityscape-918831_1280.jpg);
+    background-repeat: no-repeat;
+    background-position:center center; 
+    background-size:cover;
+    padding-bottom:121px;
+    padding-top:121px;
+    z-index: 0;
+}
+.london__wrapper{
+    margin-left: 10em;
+    display: flex;
+}
+/*---------------slut-london---------------*/
+/*---------------start-footer---------------*/
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1C1E29;
+    color: #9FA7AF;
+}
 .footer__wrapper{
     background-color: #1C1E29;
 }
-/*-------slut-footer-------*/
+/*---------------slut-footer---------------*/
 
-/*-------Element-------*/
-/*-------start-header-------*/
+/*------------------ELEMENTS------------------*/
+
+/*---------------start-header---------------*/
 .header__h1{
     color: #fff;
     font-family: 'Montserrat', sans-serif;
@@ -187,11 +226,11 @@ h3{
     right: 3em;
     background-color: #1C1E21;
 }
-/*-------slut-header-------*/
+/*---------------slut-header---------------*/
 
 
-/*-------start-main-------*/
-/*-------start-produckt-------*/
+/*---------------start-main---------------*/
+/*---------------start-produckt---------------*/
 .produckt__item{
     text-align: center;
     background-color: rgba(0, 0, 0, 0);
@@ -211,8 +250,8 @@ h3{
     border-radius: 100px;
     margin: auto;
 }
-/*-------slut-produckt-------*/
-/*-------start-info-------*/
+/*---------------slut-produckt---------------*/
+/*---------------start-info---------------*/
 .info__article{
     width: 50rem;
     margin: auto;
@@ -243,9 +282,9 @@ h3{
     font-weight: 700;
     font-family: "Roboto";
 }
-/*-------slut-info-------*/
+/*---------------slut-info---------------*/
 
-/*-------start-ourwork-------*/
+/*---------------start-ourwork---------------*/
 .Ourwork__img{
     width: 300px;
 }
@@ -266,9 +305,9 @@ h3{
 .Ourwork__img::before{
     background-color: #EAAB1C;
 }
-/*-------slut-work-for-us-------*/
+/*---------------start-ourwork---------------*/
 
-/*-------start-team-------*/
+/*---------------start-team---------------*/
 .team__figcaption{
     background-color: white;
     text-align: center;
@@ -291,21 +330,12 @@ h3{
 .team__span{
     background-color: #EFF1F8;
 }
-                    .team__figure{
-                        background-color: white;
-                        margin-top: 60px;
-                    }
-/*-------slut-team-------*/
-/*-------start-photo-------*/
-.moveingphoto{
-    background-image: url("https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/45/2015/10/cafe-918624_1280.jpg");
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 300px;
-    position: relative;
+.team__figure{
+    background-color: white;
+    margin-top: 60px;
 }
+/*---------------slut-team---------------*/
+/*---------------start-photo---------------*/
 .photo{
     opacity: 1;
 }
@@ -316,12 +346,8 @@ h3{
     margin-top: 60px;
     margin-left: 50px;
 }
-/*-------slut-photo-------*/
+/*---------------slut-photo---------------*/
 /*-------start-ourblok-------*/
-.ourblok__wrapper{
-    display: flex;
-    align-content: center;
-}
 .ourblok__figcaption{
         padding: 25px;
         min-height: 0px;
@@ -340,35 +366,15 @@ h3{
 }
 /*-------slut-ourblok-------*/
 /*-------start-london-------*/
-.london{
-    background-image: url(https://mk0athemesdemon3j7s5.kinstacdn.com/wp-content/uploads/sites/45/2015/10/cityscape-918831_1280.jpg);
-    background-repeat: no-repeat;
-    background-position:center center; 
-    background-size:cover;
-    padding-bottom:121px;
-    padding-top:121px;
-    z-index: 0;
-}
 .london__a{
     margin-top: 2em;
     background-color: rgb(28, 30, 41);
     border-radius: 0px;
     padding: 15px 30px;
-
 }
-.london__wrapper{
-    margin-left: 10em;
-    display: flex;
-}
-/*-------slut-ourblok-------*/
+/*-------slut-london-------*/
 /*-------slut-main-------*/
 /*-------start-footer-------*/
-.footer{
-    display: flex;
-    justify-content: center;
-    background-color: #1C1E29;
-    color: #9FA7AF;
-}
 .footer__h3{
     color: #EBEEF1;
     font-weight: 400;
@@ -409,18 +415,12 @@ span{
 }
 /*-------slut-footer-------*/
 
-
-
 /*Modeyfier*/
-/*start-header*/
+/*header*/
 .nav__ul--color{
     color: #fff;
 }
-/*slut-header*/
-/*main*/
-/*our-work*/
-
-/*slut-our-work*/
+/*footer*/
 .footer--p{
     width: 292px;
     margin-left: 103px;
