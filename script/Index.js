@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function(){
             navblog.style.color = "black";
             navblog.style.marginbottom = "100px";
         } else {
- //         document.querySelector('nav').style.padding = "30px";
             nav.classList.remove("nav-scrolled");
             navwest.style.color = "white";
             navwest.style.margintop = "10px";

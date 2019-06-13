@@ -73,7 +73,9 @@ h3{
 .produckt{
     display: flex;
     margin: 200px;
+    margin-top: 50px;
     width: 75%;
+    height: 150px;
 }
 /*---------------slut-produckt---------------*/
 /*---------------start-info---------------*/
@@ -225,6 +227,8 @@ h3{
     top: 5px;
     right: 3em;
     background-color: #1C1E21;
+    padding: 1em;
+    padding-right: 2em;
 }
 /*---------------slut-header---------------*/
 
@@ -249,6 +253,13 @@ h3{
     background-color: rgb(234, 171, 28);
     border-radius: 100px;
     margin: auto;
+}
+.produckt__icon{
+    margin-top: 25px;
+    font-size: 40px;
+}
+.produckt__p{
+    width: 20em;
 }
 /*---------------slut-produckt---------------*/
 /*---------------start-info---------------*/
@@ -287,6 +298,7 @@ h3{
 /*---------------start-ourwork---------------*/
 .Ourwork__img{
     width: 300px;
+    display: block;
 }
 .Ourwork__h3{
     font-style: bold;
@@ -302,10 +314,37 @@ h3{
     line-height: 22px;
     margin-bottom: 60px;
 }
-.Ourwork__img::before{
-    background-color: #EAAB1C;
+.img__conatiner:hover .img__overlay{
+    opacity: 1;
+    transform: translateY(0);
 }
-/*---------------start-ourwork---------------*/
+.img__conatiner{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.img__overlay{
+    transition: 0.8s all;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(234, 171, 28, 0.6);
+    transform: translateY(100%);
+    opacity: 0;
+}
+.p__overlay{
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: 3.5em;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+}
+/*---------------slut-ourwork---------------*/
 
 /*---------------start-team---------------*/
 .team__figcaption{
