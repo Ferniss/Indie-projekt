@@ -222,13 +222,20 @@ h3{
 .hidden{
     visibility: hidden;
 }
+.subul__a:hover{
+    color: orange;
+}
+.subul__a{
+    border-bottom: solid 1px grey;
+}
 .nav__subul {
     position: relative;
     top: 5px;
-    right: 3em;
+    right: 1em;
     background-color: #1C1E21;
     padding: 1em;
-    padding-right: 2em;
+    padding-right: 3em;
+    line-height: 30px;
 }
 /*---------------slut-header---------------*/
 
@@ -257,6 +264,7 @@ h3{
 .produckt__icon{
     margin-top: 25px;
     font-size: 40px;
+    color: white;
 }
 .produckt__p{
     width: 20em;
