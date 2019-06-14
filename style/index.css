@@ -460,6 +460,10 @@ span{
 span{
     margin-left: 10px;
 }
+.footer__border{
+    width: 50px;
+    border-top: solid 3px rgba(255, 255, 255, 0.1);
+}
 /*-------slut-footer-------*/
 
 /*Modeyfier*/
@@ -477,10 +481,6 @@ span{
     display: flex;
     margin-left: 70px;
     padding-top: 12px;
-}
-.footer__border{
-    width: 50px;
-    border-top: solid 3px rgba(255, 255, 255, 0.1);
 }
 .footer__border--1{
     margin-left: 10px;
